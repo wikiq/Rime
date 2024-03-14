@@ -1,0 +1,25 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Mar 14 13:54:08 2024"
+  rime_version: 1.8.5
+patch:
+  "ascii_composer/good_old_caps_lock": true
+  "ascii_composer/switch_key":
+    Caps_Lock: commit_code
+    Control_L: noop
+    Control_R: noop
+    Shift_L: commit_code
+    Shift_R: inline_ascii
+  "menu/page_size": 6
+  schema_list:
+    - {schema: rime_mint}
+    - {schema: double_pinyin}
+    - {schema: zrm2000}
+  "switcher/hotkeys":
+    - "Control+grave"
+  "translator/enable_encoder": true
+  "translator/enable_sentence": true
+  "translator/enable_user_dict": true
+  "translator/encode_commit_history": true
